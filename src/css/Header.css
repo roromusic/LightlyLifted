@@ -1,0 +1,10 @@
+.header {
+  border-top: #FFCB4E solid 10px;
+  display: grid;
+  padding: 20px 0;
+  justify-content: center; }
+
+.header_logo {
+  height: 40px; }
+  .header_logo img {
+    height: 100%; }

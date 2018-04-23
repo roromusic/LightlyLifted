@@ -1,0 +1,30 @@
+.home4
+    text-align: center;
+
+.tips 
+    display: flex;
+    flex-direction: column;
+    margin: 25px 0;
+
+.tips_list
+    display: grid;
+    grid-template-columns: 45px auto;
+    grid-template-rows: auto auto auto;
+    grid-row-gap: 25px;
+
+.tips_image
+    margin-top: 50px;
+
+.tips_bottle
+    width: 100%;
+    max-width: 300px;
+
+@media (min-width: 600px) 
+    .tips
+        flex-direction: row;
+    
+    .tips_image
+        margin-top: 0;
+        
+    .tips_bottle
+        width: 300px;

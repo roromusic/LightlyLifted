@@ -1,0 +1,14 @@
+.home5 {
+  text-align: center; }
+
+.home5_list {
+  display: grid;
+  grid-template-columns: 45px auto 45px auto;
+  grid-row-gap: 25px;
+  margin-top: 50px; }
+  .home5_list li {
+    grid-column: 2 / span 3; }
+
+@media (min-width: 600px) {
+  .home5_list li {
+    grid-column: auto / auto; } }

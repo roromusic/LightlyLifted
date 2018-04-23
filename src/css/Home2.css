@@ -1,0 +1,7 @@
+.home2 {
+  text-align: center; }
+
+@media (min-width: 600px) {
+  .home2_p {
+    max-width: 750px;
+    margin: 40px auto; } }
